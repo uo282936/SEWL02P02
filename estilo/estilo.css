@@ -1,0 +1,91 @@
+/*****************
+ ALEX RODRIGUEZ VALDES - UO282936
+ Estilos de los documentos html
+*****************/
+
+body {
+    margin-left: 3%;
+    margin-right: 3%;
+
+    background-color: rgba(131, 225, 231, 0.899);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header h1 {
+    padding-left: 0.2em;
+    margin-bottom: 0.3em;
+
+    font-size: 2.5em;
+}
+
+body h2 {
+    padding-left: 0.75em;
+
+    font-size: 1.6em;
+}
+
+article {
+    padding-bottom: 1.5em;
+    margin-bottom: 0.8em;
+
+    border-radius: 2em;
+    border-style: groove;
+    border-color: rgb(6, 108, 156);
+
+    background-color: rgba(206, 244, 255, 0.759);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+article h3 {
+    padding-left: 2%;
+    
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+article > section:first-of-type {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+article > section:first-of-type h4 {
+    margin-bottom: 1.5em;
+}
+
+article > section:first-of-type p {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+article > section:last-of-type {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+article > section:last-of-type h4 {
+    margin-bottom: 1em;
+}
+
+article > section:last-of-type p {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+h4 {
+    padding-top: 1em;
+}
+
+img {
+    padding-top: 0.2em;
+
+    width: 33%;
+    height: auto;
+}
+
+footer {
+    margin-top: 3em;
+
+    border-top: 0.1em solid black;
+
+    font-family: initial;
+}
